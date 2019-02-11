@@ -30,7 +30,7 @@
         die('Ok');
     }
     else {
-        die('Ko');
+        die('Accesso negato al server del database');
     }
 
 ?>
