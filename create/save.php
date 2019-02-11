@@ -26,10 +26,10 @@
 
     if ($result == true)
     {
-        die('Ok');
+        die('Operazione completata con successo!');
     }
     else {
-        die('Ko');
+        die('Accesso negato al database');
     }
 
 ?>

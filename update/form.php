@@ -11,7 +11,7 @@
                 <?php $ospite = findById($_GET['id']); ?>
 
                 <?php if (!empty($ospite)) { ?>
-                    <form class="form-group" action="http://localhost/Boolean/ospiti-crud/update/save.php" method="post">
+                    <form class="form-group" action="http://localhost/php/php-boolcrud/update/save.php" method="post">
                         <input type="hidden" name="id" value="<?php echo $ospite['id']; ?>">
                         <div class="form-group">
                             <label for="name">Nome</label>

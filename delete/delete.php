@@ -22,7 +22,7 @@
 
     if ($result == true)
     {
-        die('Ok');
+        die('Operazione completata con successo!');
     }
     else {
         die('Accesso negato al server del database');
